@@ -1,8 +1,8 @@
-import StyledSelectInput from "../../components/styled-inputs/StyledSelectInput.jsx";
 import {Link} from "react-router-dom";
 import {Tab, Tabs} from "@nextui-org/react";
-import {donationHistory} from "../../model/donor/donation-history.js";
-import DonationHistoryCard from "../../components/DonationHistoryCard.jsx";
+import {useState} from "react";
+import IndividualRegistration from "./IndividualRegistration";
+import RegisterAsOrganization from "./RegisterAsOrganization";
 
 
 

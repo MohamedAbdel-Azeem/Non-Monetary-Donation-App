@@ -7,7 +7,7 @@ import {useDispatch} from "react-redux";
 import {addOrgUser} from "../../redux/OrganizationSlice.js";
 import CustomSnackBar from "../../components/CustomSnackBar.jsx";
 
-export function RegisterAsOrganization(){
+export default function RegisterAsOrganization(){
     const navigate = useNavigate();
     const dispatch = useDispatch();
 
